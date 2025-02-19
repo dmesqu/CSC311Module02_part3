@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc311module02_part3.LoginController">
+   <children>
+      <TextField layoutX="226.0" layoutY="215.0" promptText="Username" />
+      <PasswordField layoutX="226.0" layoutY="253.0" promptText="Password" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="209.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Super_saiyan_3.PNG.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLogin" layoutX="274.0" layoutY="287.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Label layoutX="201.0" layoutY="323.0" text="Don't have an account?" />
+      <Button layoutX="347.0" layoutY="319.0" mnemonicParsing="false" onAction="#signup" text="Sign up" />
+   </children>
+</AnchorPane>

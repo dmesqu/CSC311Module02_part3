@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                org.example.csc311module02_part3/org.example.csc311module02_part3.HelloApplication
+                                org.example.csc311module02_part3/org.example.csc311module02_part3.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
